@@ -5,6 +5,6 @@ import (
 )
 
 func main() {
-	ap := iris.New()
-	ap.Run(iris.Addr(":8080"))
+	app := iris.New()
+	app.Run(iris.Addr(":8080"))
 }
