@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"github.com/kataras/iris"
+)
 
 func main() {
-	fmt.Println("ssss")
+	ap := iris.New()
+	ap.Run(iris.Addr(":8080"))
 }
