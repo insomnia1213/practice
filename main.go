@@ -6,5 +6,5 @@ import (
 
 func main() {
 	app := iris.New()
-	a
+	app.
 }
